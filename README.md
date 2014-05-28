@@ -1,4 +1,5 @@
-# deep-sort-object
+# deep-sort-object [![Build Status](https://travis-ci.org/IndigoUnited/node-deep-sort-object.svg?branch=master)](https://travis-ci.org/IndigoUnited/node-deep-sort-object)
+
 
 Simple module to sort objects recursively by its keys.
 
