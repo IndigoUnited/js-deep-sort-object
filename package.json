@@ -1,6 +1,6 @@
 {
   "name": "deep-sort-object",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sorts object by its keys",
   "main": "index.js",
   "scripts": {
