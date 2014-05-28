@@ -1,0 +1,34 @@
+{
+  "name": "deep-sort-object",
+  "version": "0.1.0",
+  "description": "Sorts object by its keys",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "bugs": {
+    "url": "https://github.com/IndigoUnited/node-deep-sort-object/issues/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/IndigoUnited/node-deep-sort-object.git"
+  },
+  "keywords": [
+    "sort",
+    "deep",
+    "object",
+    "key",
+    "value",
+    "keys",
+    "values"
+  ],
+  "author": "IndigoUnited <hello@indigounited.com> (http://indigounited.com)",
+  "license": "MIT",
+  "dependencies": {
+    "mout": "^0.9.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.8.1",
+    "expect.js": "~0.2.0"
+  }
+}
