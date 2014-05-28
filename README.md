@@ -29,8 +29,8 @@ sortobject({
 {
     'a': [
         {
-            'z': 'foo',
-            'b': 'bar'
+            'b': 'bar',
+            'z': 'foo'
         }
     ],
     'b': 'bar',
