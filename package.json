@@ -25,7 +25,7 @@
   "author": "IndigoUnited <hello@indigounited.com> (http://indigounited.com)",
   "license": "MIT",
   "dependencies": {
-    "mout": "^0.9.1"
+    "mout": "~0.9.1"
   },
   "devDependencies": {
     "mocha": "~1.8.1",
