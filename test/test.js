@@ -18,7 +18,7 @@ describe('sortobject', function () {
                 }
             ]
         };
-        
+
         out = sortobject(src);
 
         expect(out).to.eql(src);
@@ -40,7 +40,7 @@ describe('sortobject', function () {
                 }
             ]
         };
-        
+
         out = sortobject(src, function (a, b) {
             var ret = a.localeCompare(b);
 
