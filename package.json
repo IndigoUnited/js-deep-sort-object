@@ -4,14 +4,15 @@
   "description": "Sorts object by its keys",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R spec"
+    "test": "mocha -R spec --bail",
+    "browserify": "browserify -s deep-for-each index.js > index.umd.js"
   },
   "bugs": {
-    "url": "https://github.com/IndigoUnited/node-deep-sort-object/issues/"
+    "url": "https://github.com/IndigoUnited/js-deep-sort-object/issues/"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/IndigoUnited/node-deep-sort-object.git"
+    "url": "git://github.com/IndigoUnited/js-deep-sort-object.git"
   },
   "keywords": [
     "sort",
@@ -24,11 +25,12 @@
   ],
   "author": "IndigoUnited <hello@indigounited.com> (http://indigounited.com)",
   "license": "MIT",
-  "dependencies": {
-    "mout": "~0.9.1"
-  },
   "devDependencies": {
-    "mocha": "~1.8.1",
-    "expect.js": "~0.2.0"
+    "browserify": "^12.0.1",
+    "expect.js": "^0.3.1",
+    "mocha": "^2.1.0"
+  },
+  "dependencies": {
+    "is-plain-object": "^2.0.1"
   }
 }

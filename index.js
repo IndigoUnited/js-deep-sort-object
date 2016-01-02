@@ -1,6 +1,6 @@
 'use strict';
 
-var isPlainObject = require('mout/lang/isPlainObject');
+var isPlainObject = require('is-plain-object');
 
 function defaultSortFn(a, b) {
     return a.localeCompare(b);
