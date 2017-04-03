@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --bail",
-    "browserify": "browserify -s deep-for-each index.js > index.umd.js"
+    "browserify": "browserify -s deep-sort-object index.js > index.umd.js"
   },
   "bugs": {
     "url": "https://github.com/IndigoUnited/js-deep-sort-object/issues/"
