@@ -9,7 +9,7 @@
 [travis-image]:http://img.shields.io/travis/IndigoUnited/js-deep-sort-object/master.svg
 [david-dm-url]:https://david-dm.org/IndigoUnited/js-deep-sort-object
 [david-dm-image]:https://img.shields.io/david/IndigoUnited/js-deep-sort-object.svg
-[david-dm-dev-url]:https://david-dm.org/IndigoUnited/js-deep-sort-object#info=devDependencies
+[david-dm-dev-url]:https://david-dm.org/IndigoUnited/js-deep-sort-object?type=dev
 [david-dm-dev-image]:https://img.shields.io/david/dev/IndigoUnited/js-deep-sort-object.svg
 
 Simple module to sort objects recursively by its keys.
